@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.23.3
 
 # Use JSONLint to check *.json files
 RUN apk -U add curl nodejs
